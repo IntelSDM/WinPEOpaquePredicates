@@ -29,6 +29,12 @@ If you have something like a build server, or custom packer; you can also use ot
 <img width="1385" height="904" alt="image" src="https://github.com/user-attachments/assets/543b1b19-e2dc-4d15-ad5a-305707df2e85" /> <br>
 
 
+## Annotations
+```c
+__attribute__((annotate("obfus")))
+``` 
+* Marks your function for the pass
+
 ## How To Build
 * Download [LLVM 19.1](https://github.com/llvm/llvm-project/releases/tag/llvmorg-19.1.0)
 * Download [VCPKG](https://github.com/microsoft/vcpkg)
